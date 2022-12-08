@@ -30,3 +30,6 @@ My main goal is to gain new skills and knowledge in order to become a strong for
 ## Education
 * University: Stolin State Agrarian Economic College
     * Specialty: Information technology software
+## Courses:
+* Code Basics
+* Javascript.ru
