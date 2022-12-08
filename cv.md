@@ -33,3 +33,6 @@ My main goal is to gain new skills and knowledge in order to become a strong for
 ## Courses:
 * Code Basics
 * Javascript.ru
+## Language
+* English - A2
+* Russian - Native
