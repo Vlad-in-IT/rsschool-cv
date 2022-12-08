@@ -3,7 +3,7 @@
 ## Contacts
 * Phone: +1 (347) 758 58 57
 * Email: vlad.vabov@gmail.com
-* Github: MRVamon
+* Github: Vlad-in-IT
 
 ## About-me
 My main goal is to gain new skills and knowledge in order to become a strong forntend-developer.I can spend a lot of time studying what I like. I consider my strengths to be good communication with people, stress tolerance, quick understanding and mastering of new information.
