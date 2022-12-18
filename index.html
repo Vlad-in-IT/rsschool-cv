@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Vlad Vabishchevich CV</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+   <link rel="icon" href="laptop.ico">
+</head>
+
+<body>
+   <header class="container header">
+      <nav class="nav">
+         <ul class="nav-list">
+            <li class="nav__item"><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="nav__item"><a href="#about-me" class="nav-link">About myself</a></li>
+            <li class="nav__item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav__item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav__item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav__item"><a href="#education" class="nav-link">Education</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main class="container main">
+      <div class="left-side">
+         <div>
+            <img src="./photo.jpg" width="300" height="300" alt="my photo">
+         </div>
+         <section class="contact" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <ul>
+               <li class="section-item">
+                  Email: <a href="mailto:vlad.vabov@gmail.com">vlad.vabov@gmail.com</a>
+               </li>              
+               <li class="section-item">
+                  Phone: <a href="tel:+1347585857">+1 (347) 758 58 57</a>
+               </li>
+               <li class="section-item">
+                  VK: <a href="https://vk.com/vlad">Vlad Vab</a>
+               </li>
+            </ul>
+         </section>
+         <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+               <li>HTML</li>
+               <li>CSS (Basic)</li>
+               <li>JavaScript (Basic)</li>
+               <li>Git (Basic)</li>
+            </ul>
+         </section>
+         <section class="education" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="education__list">
+               <li class="section-item">
+                  <p>Information technology software</p><br>
+               </li>
+               <li class="section-item">
+                  <a href="https://ru.code-basics.com/">Code Basics</a>                  
+               </li>
+               <li class="section-item">
+                  <a href="https://htmlacademy.ru/courses">HTML Academy</a>               
+               </li>
+            </ul>
+         </section>
+         <section class="section-english" id="english">
+            <h2 class="section-title">English</h2>
+            <ul>
+                <li>English - A2</li>
+                <li>Russian - Native</li>                
+             </ul>
+         </section>
+      </div>
+      <div class="right-side">
+         <section class="page-title">
+            <h1 class="title">Vlad Vabov</h1>
+            <p><span>Future</span> Front-End developer</p>
+         </section>
+         <section id="about-me">
+            <h2 class="section-title">About me</h2>
+            <p class="about-me">
+                My main goal is to gain new skills and knowledge in order to become a forntend-developer.I can spend a lot of time studying what I like.<br>
+                I consider my strengths to be good communication with people, stress tolerance, quick understanding and mastering of new information.
+            </p>
+         </section>
+         <section class="code" id="code">
+            <h2 class="section-title">Code</h2>
+            <details open>
+               <summary>javascript</summary>
+               <pre>
+                     <code  data-language = "javascript">
+                        function validatePIN (pin) {
+                            if (Number(pin)>=0 && String(pin)!=='.' && pin[0]!='.') {
+                                let count=pin.toString().length;
+                                if (count==4 || count==6){
+                                    return true
+                                }
+                                else{
+                                    return false
+                                }
+                            }
+                            else{
+                                return false
+                            } 
+                  </code>
+               </pre>
+            </details>
+         </section>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="container footer-container">
+         <div>© 2022 <a class="github nav-link" href="https://github.com/Vlad-in-IT">Vlad Vabov</a></div>
+         <a href="https://rs.school/js/"><img src="./rs_school_js.svg" width="121" alt="rs_school"></a>        
+      </div>
+   </footer>
+</body>
+</html>
